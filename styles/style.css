@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather;
+}
+/* -----------------------Common Styles Part Here----------------------------- */
+/*------------------------ New Year Styles Part Here-------------------------- */
+header {
+  background-image: url("../images/Banner Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  font-family: Merriweather;
+  /* padding: 177px 344px 177px 344px; */
+  margin: 50px auto;
+}
+.newYear-container {
+  padding: 177px 344px 177px 344px;
+}
+.newYear-subTitle {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+.newYear-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+/*--------------------------- OFF Styles Part Here------------- */
+.off-section {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.off-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.off-miniTitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.off-subTitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* --------------------------------Welcome Section Styles Part Here--------------------------- */
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  background-image: url("../images/Vectorrr.png");
+  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background-repeat: no-repeat;
+  background-position: center, center;
+  padding: 68px 138px;
+  margin-bottom: 120px;
+}
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+.join-btn button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-left: 32px;
+}
+/* ---------------------------------Place Style Part Here---------------------------- */
+.place-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 0px 140px 120px 140px;
+  border-radius: 16px;
+  text-align: center;
+  padding: 100px 385px 110px 385px;
+  font-family: Inter;
+}
+.place-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.place-title span {
+  color: #f00;
+  font-family: Inter;
+}
+.place-section .join-btnn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background-color: #f00;
+  padding: 16px 32px;
+  margin-top: 48px;
+  border: 0;
+}
+/*----------------------------------- Coming Soon Styles Part Here------------------------ */
+.comingSoon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.coming-subTitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.coming-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.coming-description, .coming-20-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+}
+.coming-img {
+  border: 5px solid #f00;
+  border-radius: 280px;
+  padding: 49px;
+}
+.coming-20-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.coming-20-description {
+
+}
