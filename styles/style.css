@@ -137,6 +137,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 100px;
+  margin-bottom: 120px;
 }
 .coming-subTitle {
   color: #f00;
@@ -153,13 +154,14 @@ header {
   text-transform: capitalize;
   margin-bottom: 22px;
 }
-.coming-description, .coming-20-description {
+.coming-description,
+.coming-20-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
 }
 .coming-img {
-  border: 5px solid #f00;
+  border: 15px solid #f00;
   border-radius: 280px;
   padding: 49px;
 }
@@ -170,6 +172,174 @@ header {
   font-weight: 700;
   margin-bottom: 16px;
 }
-.coming-20-description {
+.coming-img2 {
+  margin-top: 43px;
+}
+/*---------------------- HOlidays Sale Section Style Part Here--------------------------- */
+.holiday-subTitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.holiday-title span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 28px;
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+.discount-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-image: url("../images/Rectangle 2.png"),
+    url("../images/Rectangle 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom center, right top;
+  margin: 0px 240px 120px 240px;
+  fill: linear-gradient(90deg, #fff 0.26%, #1d1d1b 100.35%);
+  background-blend-mode: screen;
+  mix-blend-mode: screen;
+}
 
+/* .box-img {
+  fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
+  background-blend-mode: screen;
+  mix-blend-mode: screen;
+} */
+
+/*----------------------------- Portfolio Styles Part Here----------------------- */
+.portfolio-container {
+  margin-left: 140px;
+  margin-bottom: 120px;
+}
+.portfolio-subTitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.portfolio-img {
+  display: flex;
+  gap: 25px;
+}
+.bg-img {
+  margin-bottom: 25px;
+}
+
+/* ---------------------Subscribe Styles Part Here---------------- */
+.subscribe-section {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0px 140px 120px 140px;
+  padding: 80px 212px;
+  text-align: center;
+}
+.subscribe-title {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.gmail-box {
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  margin-right: 0px;
+  border: 0;
+  width: 438px;
+  height: 72px;
+  text-align: center;
+}
+.subscribe-btn {
+  margin-left: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  width: 210;
+  height: 71px;
+  padding: 20px 56px 25px 55px;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+}
+/*----------------------------------- Footer Section Style Here--------------------------- */
+.footer-container {
+  padding: 120px 140px;
+  background-color: #070211;
+  color: white;
+}
+.address-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  /* background-color: #fff; */
+}
+.footer-description {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer-container hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
 }
