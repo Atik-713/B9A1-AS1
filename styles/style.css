@@ -6,7 +6,9 @@
 /* -----------------------Common Styles Part Here----------------------------- */
 /*------------------------ New Year Styles Part Here-------------------------- */
 header {
-  background-image: url("../images/Banner Image.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/Banner Image.png");
+  border-radius: 16px;
+/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);    */
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
@@ -63,12 +65,12 @@ header {
   justify-content: center;
   gap: 40px;
   align-items: center;
-  background-image: url("../images/Vectorrr.png");
-  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vector.png");
   background-repeat: no-repeat;
   background-position: center, center;
   padding: 68px 138px;
-  margin-bottom: 120px;
+  margin: 0 280px 120px 280px;
+  border-radius: 17px;
 }
 .welcome-title {
   color: #fff;
@@ -215,17 +217,25 @@ header {
     url("../images/Rectangle 1.png");
   background-repeat: no-repeat;
   background-position: bottom center, right top;
-  margin: 0px 240px 120px 240px;
+  margin: 0px 350px 120px 240px;
   fill: linear-gradient(90deg, #fff 0.26%, #1d1d1b 100.35%);
   background-blend-mode: screen;
   mix-blend-mode: screen;
 }
 
-/* .box-img {
+.box-img {
   fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
-  background-blend-mode: screen;
-  mix-blend-mode: screen;
-} */
+  /* background-blend-mode: screen;
+  mix-blend-mode: screen; */
+  background-color: transparent;
+}
+.discount {
+  /* margin:86px 270px 80px 0; */
+  margin-bottom: 150px;
+  /* margin-right: 550px; */
+  width: 206px;
+  height: 206px;
+}
 
 /*----------------------------- Portfolio Styles Part Here----------------------- */
 .portfolio-container {
