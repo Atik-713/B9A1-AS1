@@ -138,7 +138,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 200px;
   margin-bottom: 120px;
 }
 .coming-subTitle {
