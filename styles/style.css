@@ -332,6 +332,12 @@ header {
   color: #fff;
   /* background-color: #fff; */
 }
+address {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
 .footer-description {
   color: #fff;
   font-family: Inter;
